@@ -1,0 +1,5 @@
+{
+    "python.analysis.logLevel": "Trace",
+    "python.analysis.logTypeEvaluationTime": true,
+    "python.analysis.typeEvaluationTimeThreshold": 500
+}

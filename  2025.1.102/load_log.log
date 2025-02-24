@@ -1,0 +1,206 @@
+2025-02-24 13:45:13.539 [info] (Client) Pylance async client (2025.1.102) started with python extension (2025.0.0)
+2025-02-24 13:45:13.997 [info] [Info  - 1:45:13 PM] (56730) Server root directory: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist
+2025-02-24 13:45:14.072 [info] [Info  - 1:45:14 PM] (56730) Pylance language server 2025.1.102 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-24 13:45:14.078 [info] [Info  - 1:45:14 PM] (56730) Starting service instance "testpymavlinkpylancefresh"
+2025-02-24 13:45:14.191 [info] (56730) No configuration file found.
+2025-02-24 13:45:14.196 [info] (56730) No pyproject.toml file found.
+2025-02-24 13:45:14.196 [info] [Info  - 1:45:14 PM] (56730) Setting environmentName for service "testpymavlinkpylancefresh": "3.12.3 (venv venv)"
+2025-02-24 13:45:14.196 [info] [Info  - 1:45:14 PM] (56730) Setting pythonPath for service "testpymavlinkpylancefresh": "/home/ddc/projects/testpymavlinkpylancefresh/venv/bin/python"
+2025-02-24 13:45:14.197 [info] [Info  - 1:45:14 PM] (56730) No include entries specified; assuming /home/ddc/projects/testpymavlinkpylancefresh
+2025-02-24 13:45:14.197 [info] [Info  - 1:45:14 PM] (56730) Auto-excluding **/node_modules
+2025-02-24 13:45:14.197 [info] [Info  - 1:45:14 PM] (56730) Auto-excluding **/__pycache__
+2025-02-24 13:45:14.197 [info] [Info  - 1:45:14 PM] (56730) Auto-excluding **/.*
+2025-02-24 13:45:14.242 [info] [Info  - 1:45:14 PM] (56730) Assuming Python version 3.12.3.final.0
+2025-02-24 13:45:14.242 [info] (56730) Assuming Python platform Linux
+2025-02-24 13:45:14.382 [info] [Info  - 1:45:14 PM] (56730) Execution environment: 3.12.3 (venv venv)
+2025-02-24 13:45:14.383 [info] [Info  - 1:45:14 PM] (56730)   Extra paths:
+2025-02-24 13:45:14.383 [info] [Info  - 1:45:14 PM] (56730)     (none)
+2025-02-24 13:45:14.385 [info] [Info  - 1:45:14 PM] (56730)   Python version: 3.12.3.final.0
+2025-02-24 13:45:14.385 [info] [Info  - 1:45:14 PM] (56730)   Python platform: Linux
+2025-02-24 13:45:14.386 [info] [Info  - 1:45:14 PM] (56730)   Search paths:
+2025-02-24 13:45:14.386 [info] [Info  - 1:45:14 PM] (56730)     /home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib
+2025-02-24 13:45:14.386 [info] [Info  - 1:45:14 PM] (56730)     /home/ddc/projects/testpymavlinkpylancefresh
+2025-02-24 13:45:14.386 [info] [Info  - 1:45:14 PM] (56730)     /home/ddc/projects/testpymavlinkpylancefresh/typings
+2025-02-24 13:45:14.386 [info] [Info  - 1:45:14 PM] (56730)     /home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stubs/...
+2025-02-24 13:45:14.386 [info] [Info  - 1:45:14 PM] (56730)     /home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/bundled/stubs
+2025-02-24 13:45:14.386 [info] [Info  - 1:45:14 PM] (56730)     /usr/lib/python3.12
+2025-02-24 13:45:14.386 [info] [Info  - 1:45:14 PM] (56730)     /usr/lib/python3.12/lib-dynload
+2025-02-24 13:45:14.386 [info] [Info  - 1:45:14 PM] (56730)     /home/ddc/projects/testpymavlinkpylancefresh/venv/lib/python3.12/site-packages
+2025-02-24 13:45:14.389 [info] [Info  - 1:45:14 PM] (56730) Adding fs watcher for library directories:
+ file:///usr/lib/python3.12
+file:///home/ddc/projects/testpymavlinkpylancefresh/venv/lib/python3.12/site-packages
+2025-02-24 13:45:14.389 [info] [Info  - 1:45:14 PM] (56730) Adding fs watcher for directories:
+ file:///home/ddc/projects/testpymavlinkpylancefresh
+2025-02-24 13:45:14.389 [info] (56730) Searching for source files
+2025-02-24 13:45:14.392 [info] [Info  - 1:45:14 PM] (56730) Auto-excluding /home/ddc/projects/testpymavlinkpylancefresh/venv
+2025-02-24 13:45:14.397 [info] [Info  - 1:45:14 PM] (56730) Found 1 source file
+2025-02-24 13:45:14.397 [info] (56730) Adding fs watcher for files:
+ file:///home/ddc/projects/testpymavlinkpylancefresh/requirements.txt
+file:///home/ddc/projects/testpymavlinkpylancefresh/pyproject.toml
+2025-02-24 13:45:14.454 [info] (56730) pytest configurations: {"message":"request cancelled","classes":["Test"],"files":["test_*.py","*_test.py"],"functions":["test"]}
+2025-02-24 13:45:14.569 [info] (56730) Attempting to resolve using local imports: __builtins__
+2025-02-24 13:45:14.585 [info] (56730) [FG] runWithCancellationToken ...
+2025-02-24 13:45:14.783 [info] (56730) [FG]   parsing: file:///home/ddc/projects/testpymavlinkpylancefresh/main.py (121ms)
+2025-02-24 13:45:15.019 [info] (56730) [FG]   parsing: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/builtins.pyi [fs read 10ms] (281ms)
+2025-02-24 13:45:15.154 [info] (56730) [FG]   binding: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/builtins.pyi (225ms)
+2025-02-24 13:45:15.154 [info] (56730) [FG]   binding: file:///home/ddc/projects/testpymavlinkpylancefresh/main.py (4ms)
+2025-02-24 13:45:15.156 [info] (56730) [FG] runWithCancellationToken (657ms) [f:10, t:111, p:146, i:125, b:227]
+2025-02-24 13:45:15.161 [info] (56730) pytest configurations: {"message":"script","classes":["Test"],"files":["test_*.py","*_test.py"],"functions":["test"]}
+2025-02-24 13:45:15.485 [info] [Info  - 1:45:15 PM] (56730) Background analysis(1) root directory: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist
+2025-02-24 13:45:15.487 [info] [Info  - 1:45:15 PM] (56730) Background analysis(1) started
+2025-02-24 13:45:15.676 [info] (56730) pytest configurations: {"message":"request cancelled","classes":["Test"],"files":["test_*.py","*_test.py"],"functions":["test"]}
+2025-02-24 13:45:15.708 [info] [Info  - 1:45:15 PM] (56730) Indexer background runner(2) root directory: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist (index)
+2025-02-24 13:45:15.708 [info] [Info  - 1:45:15 PM] (56730) Indexing(2) started
+2025-02-24 13:45:15.760 [info] (56730) Attempting to resolve using local imports: __builtins__
+2025-02-24 13:45:15.770 [info] (56730) [BG(1)] InlayHints range 0:0 - 4:0 at file:///home/ddc/projects/testpymavlinkpylancefresh/main.py ...
+2025-02-24 13:45:15.770 [info] (56730) [BG(1)]   parsing: file:///home/ddc/projects/testpymavlinkpylancefresh/main.py (89ms)
+2025-02-24 13:45:15.919 [info] (56730) [BG(1)]   parsing: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/builtins.pyi [fs read 5ms] (140ms)
+2025-02-24 13:45:15.919 [info] (56730) [IDX(2)] scan packages file:///home/ddc/projects/testpymavlinkpylancefresh ...
+2025-02-24 13:45:15.919 [info] (56730) [IDX(2)]   read stdlib indices (32ms)
+2025-02-24 13:45:16.029 [info] (56730) [BG(1)]   binding: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/builtins.pyi (112ms)
+2025-02-24 13:45:16.035 [info] (56730) [BG(1)]   binding: file:///home/ddc/projects/testpymavlinkpylancefresh/main.py (3ms)
+2025-02-24 13:45:16.097 [info] (56730) [BG(1)]   ka ...
+2025-02-24 13:45:16.097 [info] (56730) [BG(1)]     We ...
+2025-02-24 13:45:16.097 [info] (56730) [BG(1)]        ...
+2025-02-24 13:45:16.097 [info] (56730) [BG(1)]         parsing: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/typing.pyi [fs read 0ms] (44ms)
+2025-02-24 13:45:16.125 [info] (56730) [BG(1)]         binding: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/typing.pyi (27ms)
+2025-02-24 13:45:16.125 [info] (56730) [BG(1)]        (74ms) [f:0, t:23, p:13, i:8, b:27]
+2025-02-24 13:45:16.166 [info] (56730) [BG(1)]     We ["type_check_only" (..builtins) [1000:2]] (119ms) [f:0, t:23, p:13, i:8, b:27]
+2025-02-24 13:45:16.201 [info] (56730) [BG(1)]      ...
+2025-02-24 13:45:16.203 [info] (56730) [BG(1)]       parsing: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/types.pyi [fs read 0ms] (34ms)
+2025-02-24 13:45:16.219 [info] (56730) [BG(1)]       binding: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/types.pyi (13ms)
+2025-02-24 13:45:16.219 [info] (56730) [BG(1)]      (50ms) [f:0, t:17, p:12, i:4, b:13]
+2025-02-24 13:45:16.264 [info] (56730) [BG(1)]      ...
+2025-02-24 13:45:16.264 [info] (56730) [BG(1)]       parsing: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/_typeshed/__init__.pyi [fs read 1ms] (12ms)
+2025-02-24 13:45:16.267 [info] (56730) [BG(1)]       binding: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/_typeshed/__init__.pyi (4ms)
+2025-02-24 13:45:16.267 [info] (56730) [BG(1)]      (18ms) [f:1, t:6, p:3, i:2, b:4]
+2025-02-24 13:45:16.286 [info] (56730) [BG(1)]      ...
+2025-02-24 13:45:16.286 [info] (56730) [BG(1)]       parsing: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/abc.pyi [fs read 0ms] (2ms)
+2025-02-24 13:45:16.288 [info] (56730) [BG(1)]       binding: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/abc.pyi (1ms)
+2025-02-24 13:45:16.288 [info] (56730) [BG(1)]      (4ms) [f:0, t:1, p:1, i:0, b:1]
+2025-02-24 13:45:16.297 [info] (56730) [BG(1)]      ...
+2025-02-24 13:45:16.297 [info] (56730) [BG(1)]       parsing: file:///home/ddc/projects/testpymavlinkpylancefresh/venv/lib/python3.12/site-packages/pymavlink/dialects/v20/__init__.py [fs read 0ms] (0ms)
+2025-02-24 13:45:16.297 [info] (56730) [BG(1)]       binding: file:///home/ddc/projects/testpymavlinkpylancefresh/venv/lib/python3.12/site-packages/pymavlink/dialects/v20/__init__.py (1ms)
+2025-02-24 13:45:16.297 [info] (56730) [BG(1)]      (1ms) [f:0, t:0, p:0, i:0, b:1]
+2025-02-24 13:45:16.306 [info] (56730) [IDX(2)] scan packages file:///home/ddc/projects/testpymavlinkpylancefresh (419ms)
+2025-02-24 13:45:16.306 [info] [Info  - 1:45:16 PM] (56730) scanned(2) 15 files over 1 exec env
+2025-02-24 13:45:16.730 [info] (56730) [IDX(2)] index packages file:///home/ddc/projects/testpymavlinkpylancefresh ...
+2025-02-24 13:45:16.730 [info] (56730) [IDX(2)]   index execution environment file:///home/ddc/projects/testpymavlinkpylancefresh ...
+2025-02-24 13:45:16.730 [info] (56730) [IDX(2)]     indexing: file:///home/ddc/projects/testpymavlinkpylancefresh/venv/lib/python3.12/site-packages/future/__init__.py [skipped: no '__all__' defined] (0ms)
+2025-02-24 13:45:16.730 [info] [Info  - 1:45:16 PM] (56730) Heap stats: total_memory_size=7941MB, total_free_size=2961MB, total_heap_size=98MB, used_heap_size=69MB, cross_worker_used_heap_size=69MB, total_physical_size=98MB, total_available_size=2026MB, heap_size_limit=2096MB
+2025-02-24 13:45:16.733 [info] (56730) [IDX(2)]     indexing: file:///home/ddc/projects/testpymavlinkpylancefresh/venv/lib/python3.12/site-packages/libfuturize/__init__.py [skipped: no '__all__' defined] (3ms)
+2025-02-24 13:45:16.733 [info] (56730) [IDX(2)]     indexing: file:///home/ddc/projects/testpymavlinkpylancefresh/venv/lib/python3.12/site-packages/libpasteurize/__init__.py [skipped: no '__all__' defined] (0ms)
+2025-02-24 13:45:16.733 [info] (56730) [IDX(2)]     indexing: file:///home/ddc/projects/testpymavlinkpylancefresh/venv/lib/python3.12/site-packages/lxml/__init__.py [skipped: no '__all__' defined] (0ms)
+2025-02-24 13:45:16.734 [info] (56730) [IDX(2)]     indexing: file:///home/ddc/projects/testpymavlinkpylancefresh/venv/lib/python3.12/site-packages/past/__init__.py [skipped: no '__all__' defined] (0ms)
+2025-02-24 13:45:16.749 [info] (56730) [IDX(2)]     indexing: file:///home/ddc/projects/testpymavlinkpylancefresh/venv/lib/python3.12/site-packages/pip/__init__.py ...
+2025-02-24 13:45:16.752 [info] (56730) [IDX(2)]       parsing: file:///home/ddc/projects/testpymavlinkpylancefresh/venv/lib/python3.12/site-packages/pip/__init__.py [fs read 0ms] (14ms)
+2025-02-24 13:45:16.809 [info] (56730) [IDX(2)]       parsing: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/builtins.pyi [fs read 4ms] (60ms)
+2025-02-24 13:45:16.832 [info] (56730) [IDX(2)]       binding: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/builtins.pyi (22ms)
+2025-02-24 13:45:16.832 [info] (56730) [IDX(2)]       binding: file:///home/ddc/projects/testpymavlinkpylancefresh/venv/lib/python3.12/site-packages/pip/__init__.py (1ms)
+2025-02-24 13:45:16.838 [info] (56730) [IDX(2)]     indexing: file:///home/ddc/projects/testpymavlinkpylancefresh/venv/lib/python3.12/site-packages/pip/__init__.py [found 2] (102ms)
+2025-02-24 13:45:16.838 [info] (56730) [IDX(2)]     indexing: file:///home/ddc/projects/testpymavlinkpylancefresh/venv/lib/python3.12/site-packages/pymavlink/__init__.py [skipped: no '__all__' defined] (0ms)
+2025-02-24 13:45:16.840 [info] (56730) [IDX(2)]   index execution environment file:///home/ddc/projects/testpymavlinkpylancefresh [found 731 in 15 files] (118ms)
+2025-02-24 13:45:16.850 [info] (56730) [IDX(2)] index packages file:///home/ddc/projects/testpymavlinkpylancefresh [found 731 in 1 exec envs] (161ms)
+2025-02-24 13:45:16.850 [info] [Info  - 1:45:16 PM] (56730) indexed(2) 15 files over 1 exec env
+2025-02-24 13:45:16.878 [info] [Info  - 1:45:16 PM] (56730) Indexing finished(2).
+2025-02-24 13:45:17.008 [info] (56730) [BG(1)]      ...
+2025-02-24 13:45:17.008 [info] (56730) [BG(1)]       parsing: file:///home/ddc/projects/testpymavlinkpylancefresh/venv/lib/python3.12/site-packages/pymavlink/dialects/v20/ardupilotmega.py [fs read 21ms] (711ms)
+2025-02-24 13:45:17.299 [info] (56730) [BG(1)]       binding: file:///home/ddc/projects/testpymavlinkpylancefresh/venv/lib/python3.12/site-packages/pymavlink/dialects/v20/ardupilotmega.py (287ms)
+2025-02-24 13:45:17.299 [info] (56730) [BG(1)]      (998ms) [f:21, t:203, p:480, i:3, b:287]
+2025-02-24 13:45:17.320 [info] (56730) [BG(1)]     We ...
+2025-02-24 13:45:17.320 [info] (56730) [BG(1)]        ...
+2025-02-24 13:45:17.320 [info] (56730) [BG(1)]         parsing: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/os/__init__.pyi [fs read 0ms] (17ms)
+2025-02-24 13:45:17.328 [info] (56730) [BG(1)]         binding: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/os/__init__.pyi (11ms)
+2025-02-24 13:45:17.328 [info] (56730) [BG(1)]        (28ms) [f:0, t:9, p:6, i:1, b:11]
+2025-02-24 13:45:17.338 [info] (56730) [BG(1)]       We ...
+2025-02-24 13:45:17.338 [info] (56730) [BG(1)]          ...
+2025-02-24 13:45:17.338 [info] (56730) [BG(1)]           parsing: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/logging/__init__.pyi [fs read 0ms] (7ms)
+2025-02-24 13:45:17.339 [info] (56730) [BG(1)]           binding: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/logging/__init__.pyi (4ms)
+2025-02-24 13:45:17.339 [info] (56730) [BG(1)]          (11ms) [f:0, t:4, p:2, i:1, b:4]
+2025-02-24 13:45:17.345 [info] (56730) [BG(1)]       We ["logging.getLogger" (..pymavlink.dialects.v20.ardupilotmega) [33:10]] (15ms) [f:0, t:4, p:2, i:1, b:4]
+2025-02-24 13:45:17.345 [info] (56730) [BG(1)]        ...
+2025-02-24 13:45:17.345 [info] (56730) [BG(1)]         parsing: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/collections/abc.pyi [fs read 0ms] (0ms)
+2025-02-24 13:45:17.345 [info] (56730) [BG(1)]         binding: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/collections/abc.pyi ...
+2025-02-24 13:45:17.345 [info] (56730) [BG(1)]           parsing: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/_collections_abc.pyi [fs read 0ms] (1ms)
+2025-02-24 13:45:17.346 [info] (56730) [BG(1)]           binding: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/_collections_abc.pyi (1ms)
+2025-02-24 13:45:17.347 [info] (56730) [BG(1)]         binding: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/collections/abc.pyi (2ms)
+2025-02-24 13:45:17.347 [info] (56730) [BG(1)]        (2ms) [f:0, t:1, p:0, i:0, b:2]
+2025-02-24 13:45:17.369 [info] (56730) [BG(1)]     We ["os.environ.get" (..pymavlink.dialects.v20.ardupilotmega) [37:22]] (69ms) [f:0, t:14, p:8, i:2, b:17]
+2025-02-24 13:45:17.375 [info] (56730) [BG(1)]     We ...
+2025-02-24 13:45:17.375 [info] (56730) [BG(1)]       We ...
+2025-02-24 13:45:17.375 [info] (56730) [BG(1)]          ...
+2025-02-24 13:45:17.375 [info] (56730) [BG(1)]           parsing: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/struct.pyi [fs read 1ms] (1ms)
+2025-02-24 13:45:17.375 [info] (56730) [BG(1)]           binding: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/struct.pyi ...
+2025-02-24 13:45:17.375 [info] (56730) [BG(1)]             parsing: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/_struct.pyi [fs read 1ms] (1ms)
+2025-02-24 13:45:17.376 [info] (56730) [BG(1)]             binding: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/_struct.pyi (0ms)
+2025-02-24 13:45:17.377 [info] (56730) [BG(1)]           binding: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/struct.pyi (2ms)
+2025-02-24 13:45:17.377 [info] (56730) [BG(1)]          (3ms) [f:2, t:0, p:0, i:0, b:2]
+2025-02-24 13:45:17.378 [info] (56730) [BG(1)]       We ["struct.Struct" (..pymavlink.dialects.v20.ardupilotmega) [127:16]] (5ms) [f:2, t:0, p:0, i:0, b:2]
+2025-02-24 13:45:19.362 [info] (56730) [BG(1)]       We ...
+2025-02-24 13:45:19.362 [info] (56730) [BG(1)]         We ...
+2025-02-24 13:45:19.363 [info] (56730) [BG(1)]           We ...
+2025-02-24 13:45:19.363 [info] (56730) [BG(1)]             We ...
+2025-02-24 13:45:19.363 [info] (56730) [BG(1)]               We ...
+2025-02-24 13:45:19.363 [info] (56730) [BG(1)]                 We ...
+2025-02-24 13:45:19.363 [info] (56730) [BG(1)]                   We ...
+2025-02-24 13:45:19.364 [info] (56730) [BG(1)]                     We ...
+2025-02-24 13:45:19.365 [info] (56730) [BG(1)]                       We ...
+2025-02-24 13:45:19.365 [info] (56730) [BG(1)]                         We ...
+2025-02-24 13:45:19.365 [info] (56730) [BG(1)]                           We ...
+2025-02-24 13:45:19.365 [info] (56730) [BG(1)]                             We ...
+2025-02-24 13:45:19.365 [info] (56730) [BG(1)]                               We ...
+2025-02-24 13:45:19.365 [info] (56730) [BG(1)]                                 We ...
+2025-02-24 13:45:19.365 [info] (56730) [BG(1)]                                   We ...
+2025-02-24 13:45:19.366 [info] (56730) [BG(1)]                                     We ...
+2025-02-24 13:45:19.366 [info] (56730) [BG(1)]                                       We ...
+2025-02-24 13:45:19.366 [info] (56730) [BG(1)]                                         We ...
+2025-02-24 13:45:19.366 [info] (56730) [BG(1)]                                           We ["struct.Struct" (..pymavlink.dialects.v20.ardupilotmega) [7369:16]] (1957ms)
+2025-02-24 13:45:19.366 [info] (56730) [BG(1)]                                         We ["mavlink_msg_deprecated_name_pr <shortened> " (..pymavlink.dialects.v20.ardupilotmega) [7388:41]] (1961ms)
+2025-02-24 13:45:19.367 [info] (56730) [BG(1)]                                       We ["struct.Struct" (..pymavlink.dialects.v20.ardupilotmega) [7409:16]] (1964ms)
+2025-02-24 13:45:19.367 [info] (56730) [BG(1)]                                     We ["mavlink_msg_deprecated_name_pr <shortened> " (..pymavlink.dialects.v20.ardupilotmega) [7427:46]] (1967ms)
+2025-02-24 13:45:19.367 [info] (56730) [BG(1)]                                   We ["struct.Struct" (..pymavlink.dialects.v20.ardupilotmega) [7448:16]] (1969ms)
+2025-02-24 13:45:19.368 [info] (56730) [BG(1)]                                 We ["mavlink_msg_deprecated_name_pr <shortened> " (..pymavlink.dialects.v20.ardupilotmega) [7476:51]] (1973ms)
+2025-02-24 13:45:19.370 [info] (56730) [BG(1)]                               We ["struct.Struct" (..pymavlink.dialects.v20.ardupilotmega) [7498:16]] (1974ms)
+2025-02-24 13:45:19.371 [info] (56730) [BG(1)]                             We ["mavlink_msg_deprecated_name_pr <shortened> " (..pymavlink.dialects.v20.ardupilotmega) [7524:46]] (1977ms)
+2025-02-24 13:45:19.372 [info] (56730) [BG(1)]                           We ["struct.Struct" (..pymavlink.dialects.v20.ardupilotmega) [7547:16]] (1979ms)
+2025-02-24 13:45:19.373 [info] (56730) [BG(1)]                         We ["mavlink_msg_deprecated_name_pr <shortened> " (..pymavlink.dialects.v20.ardupilotmega) [7566:52]] (1982ms)
+2025-02-24 13:45:19.374 [info] (56730) [BG(1)]                       We ["struct.Struct" (..pymavlink.dialects.v20.ardupilotmega) [7587:16]] (1984ms)
+2025-02-24 13:45:19.375 [info] (56730) [BG(1)]                     We ["mavlink_msg_deprecated_name_pr <shortened> " (..pymavlink.dialects.v20.ardupilotmega) [7609:52]] (1988ms)
+2025-02-24 13:45:19.377 [info] (56730) [BG(1)]                   We ["struct.Struct" (..pymavlink.dialects.v20.ardupilotmega) [7630:16]] (1990ms)
+2025-02-24 13:45:19.378 [info] (56730) [BG(1)]                 We ["mavlink_msg_deprecated_name_pr <shortened> " (..pymavlink.dialects.v20.ardupilotmega) [7652:40]] (1993ms)
+2025-02-24 13:45:19.379 [info] (56730) [BG(1)]               We ["struct.Struct" (..pymavlink.dialects.v20.ardupilotmega) [7673:16]] (1994ms)
+2025-02-24 13:45:19.380 [info] (56730) [BG(1)]             We ["mavlink_msg_deprecated_name_pr <shortened> " (..pymavlink.dialects.v20.ardupilotmega) [7698:48]] (1998ms)
+2025-02-24 13:45:19.381 [info] (56730) [BG(1)]           We ["struct.Struct" (..pymavlink.dialects.v20.ardupilotmega) [7719:16]] (2001ms)
+2025-02-24 13:45:19.381 [info] [Info  - 1:45:19 PM] (56730) [BG(1)] Long operation: We (2001ms)
+2025-02-24 13:45:19.382 [info] (56730) [BG(1)]         We ["mavlink_msg_deprecated_name_pr <shortened> " (..pymavlink.dialects.v20.ardupilotmega) [7749:50]] (2003ms)
+2025-02-24 13:45:19.383 [info] [Info  - 1:45:19 PM] (56730) [BG(1)] Long operation: We (2003ms)
+2025-02-24 13:45:19.383 [info] (56730) [BG(1)]       We ["struct.Struct" (..pymavlink.dialects.v20.ardupilotmega) [7770:16]] (2005ms)
+2025-02-24 13:45:19.384 [info] [Info  - 1:45:19 PM] (56730) [BG(1)] Long operation: We (2005ms)
+2025-02-24 13:45:19.385 [info] (56730) [BG(1)]     We ["mavlink_msg_deprecated_name_pr <shortened> " (..pymavlink.dialects.v20.ardupilotmega) [7788:43]] (2014ms) [f:2, t:0, p:0, i:0, b:2]
+2025-02-24 13:45:19.386 [info] [Info  - 1:45:19 PM] (56730) [BG(1)] Long operation: We (2014ms)
+2025-02-24 13:45:19.386 [info] (56730) [BG(1)]   ka [function '"test"  [3:5]' (..main) [3:1]] (3353ms) [f:24, t:264, p:517, i:19, b:352]
+2025-02-24 13:45:19.387 [info] [Info  - 1:45:19 PM] (56730) [BG(1)] Long operation: ka (3353ms)
+2025-02-24 13:45:19.412 [info] (56730) [BG(1)]    ...
+2025-02-24 13:45:19.412 [info] (56730) [BG(1)]     We ...
+2025-02-24 13:45:19.413 [info] (56730) [BG(1)]       ka ...
+2025-02-24 13:45:19.413 [info] (56730) [BG(1)]          ...
+2025-02-24 13:45:19.413 [info] (56730) [BG(1)]           parsing: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/typing_extensions.pyi [fs read 0ms] (6ms)
+2025-02-24 13:45:19.415 [info] (56730) [BG(1)]           binding: file:///home/ddc/.vscode-server/extensions/ms-python.vscode-pylance-2025.1.102/dist/typeshed-fallback/stdlib/typing_extensions.pyi (2ms)
+2025-02-24 13:45:19.415 [info] (56730) [BG(1)]          (10ms) [f:0, t:2, p:3, i:1, b:2]
+2025-02-24 13:45:19.416 [info] (56730) [BG(1)]       ka [function '"print"  [1663:5]' (..builtins) [1662:1]] (16ms) [f:0, t:2, p:3, i:1, b:2]
+2025-02-24 13:45:19.416 [info] (56730) [BG(1)]     We ["print" (..main) [4:5]] (29ms) [f:0, t:2, p:3, i:1, b:2]
+2025-02-24 13:45:19.417 [info] (56730) [BG(1)]    [Function 'test' (main)] (31ms) [f:0, t:2, p:3, i:1, b:2]
+2025-02-24 13:45:19.431 [info] (56730) [BG(1)] InlayHints range 0:0 - 4:0 at file:///home/ddc/projects/testpymavlinkpylancefresh/main.py (3751ms)
+2025-02-24 13:45:19.431 [info] [Info  - 1:45:19 PM] (56730) [BG(1)] Long operation: InlayHints range 0:0 - 4:0 at file:///home/ddc/projects/testpymavlinkpylancefresh/main.py (3751ms)
+2025-02-24 13:45:19.436 [info] (56730) [BG(1)] indexing: file:///home/ddc/projects/testpymavlinkpylancefresh/main.py [found 1] (1ms)
+2025-02-24 13:45:19.438 [info] (56730) Workspace indexing done: file:///home/ddc/projects/testpymavlinkpylancefresh/main.py
+2025-02-24 13:45:19.439 [info] [Info  - 1:45:19 PM] (56730) Heap stats: total_memory_size=7941MB, total_free_size=2937MB, total_heap_size=201MB, used_heap_size=178MB, cross_worker_used_heap_size=178MB, total_physical_size=201MB, total_available_size=1915MB, heap_size_limit=2096MB
+2025-02-24 13:45:19.452 [info] (56730) [BG(1)] runWithCancellationToken ...
+2025-02-24 13:45:19.452 [info] (56730) [BG(1)]   analyzing: file:///home/ddc/projects/testpymavlinkpylancefresh/main.py ...
+2025-02-24 13:45:19.452 [info] (56730) [BG(1)]     checking: file:///home/ddc/projects/testpymavlinkpylancefresh/main.py (16ms)
+2025-02-24 13:45:19.452 [info] (56730) [BG(1)]   analyzing: file:///home/ddc/projects/testpymavlinkpylancefresh/main.py (17ms)
+2025-02-24 13:45:19.453 [info] (56730) [BG(1)] runWithCancellationToken (17ms)
+2025-02-24 13:45:19.462 [info] (56730) [BG(1)] SemanticTokens full at file:///home/ddc/projects/testpymavlinkpylancefresh/main.py (4ms)
+2025-02-24 13:45:19.463 [info] (56730) [BG(1)] SemanticTokens range 0:0 - 4:0 at file:///home/ddc/projects/testpymavlinkpylancefresh/main.py (2ms)
+2025-02-24 13:45:19.471 [info] (56730) pytest configurations: {"message":"script","classes":["Test"],"files":["test_*.py","*_test.py"],"functions":["test"]}
+2025-02-24 13:45:21.524 [info] (56730) [BG(1)] SemanticTokens delta previousResultId:1740404719453 at file:///home/ddc/projects/testpymavlinkpylancefresh/main.py (0ms)
